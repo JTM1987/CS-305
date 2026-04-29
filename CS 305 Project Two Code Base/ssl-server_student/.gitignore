@@ -31,4 +31,5 @@ build/
 .vscode/
 
 # Private keystore material (do not commit to public repos)
+*.cer
 *.p12
