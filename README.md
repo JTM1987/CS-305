@@ -1,4 +1,4 @@
-# CS-320 Software Security Reflection
+# CS-305 Software Security Reflection
 
 ***Jesse Martin: Southern New Hampshire University***
 # ****Portfolio artifact submission****
