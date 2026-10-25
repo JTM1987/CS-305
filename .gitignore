@@ -35,7 +35,7 @@ dependency-check-report.html
 *.p12
 *.jks
 *.cer
-keystore.*
+**/keystore.p12
 
 # Large binaries we do not track (docx/zip live under artifacts/ and are committed intentionally)
 # — no rule here; artifacts/*.zip and *.docx are included on purpose
