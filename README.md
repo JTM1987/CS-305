@@ -2,13 +2,18 @@
 
 Southern New Hampshire University · Artemis Financial client scenario
 
-## Course artifact
+## Course artifacts (Project Two)
 
-**Artemis Financial Practices for Secure Software Report** (Project Two)
+**Artemis Financial Practices for Secure Software Report**
 
-- File: [`artifacts/CS-305-Project-Two-Practices-for-Secure-Software-JMartin.docx`](artifacts/CS-305-Project-Two-Practices-for-Secure-Software-JMartin.docx)
+- [`artifacts/Project Two JMartin.docx`](artifacts/Project%20Two%20JMartin.docx)
 
-This report documents secure refactoring of the Spring Boot `ssl-server` application: SHA-256 checksum verification at `/hash`, PKCS#12 TLS on port 8443, certificate export, OWASP Dependency-Check secondary testing, and manual functional review.
+**Refactored code base**
+
+- Source tree: [`project-two/ssl-server_student/`](project-two/ssl-server_student/) (Maven Spring Boot `ssl-server`)
+- Submission ZIP: [`artifacts/ProjectTwoCodeBaseJMartin.zip`](artifacts/ProjectTwoCodeBaseJMartin.zip)
+
+The report and code cover SHA-256 checksum verification at `/hash`, PKCS#12 TLS on port 8443, certificate export, OWASP Dependency-Check secondary testing, and manual functional review. The PKCS#12 keystore is not stored in this repo; generate it locally with `keytool` per the course instructions before running HTTPS.
 
 *(Project One Vulnerability Assessment Report was completed earlier in the course; this repository highlights the secure implementation artifact.)*
 

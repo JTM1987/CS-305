@@ -1,11 +1,41 @@
+# Local staging / scratch
+_zipinspect/
+*.tmp
+
 # OS / editor
 Thumbs.db
 .DS_Store
-*.tmp
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
 
-# Never commit secrets or course keystores
+# Maven / Java build output
+target/
+build/
+*.class
+*.jar
+!**/.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse / STS (not needed on GitHub)
+.classpath
+.project
+.settings/
+.sts4-cache/
+.factorypath
+.springBeans
+
+# OWASP Dependency-Check reports (regenerate locally)
+dependency-check-report.html
+
+# Secrets and lab keystores (generate locally with keytool)
 .env
 .env.*
 *.p12
 *.jks
+*.cer
 keystore.*
+
+# Large binaries we do not track (docx/zip live under artifacts/ and are committed intentionally)
+# — no rule here; artifacts/*.zip and *.docx are included on purpose
