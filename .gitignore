@@ -1,0 +1,11 @@
+# OS / editor
+Thumbs.db
+.DS_Store
+*.tmp
+
+# Never commit secrets or course keystores
+.env
+.env.*
+*.p12
+*.jks
+keystore.*
